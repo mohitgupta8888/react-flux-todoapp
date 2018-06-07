@@ -20,9 +20,6 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, "template/static")
-  },
   plugins: [new HtmlWebpackPlugin({
     template: path.resolve(__dirname, "template/index.html")
   })]
